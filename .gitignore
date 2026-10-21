@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Azure Functions local settings (may hold secrets)
+functions/local.settings.json
+
+# Local SDD ledger scratch
+.superpowers/
+
+# Packaging output
+app_service.zip
+
+# Claude Code local state
+.claude/
